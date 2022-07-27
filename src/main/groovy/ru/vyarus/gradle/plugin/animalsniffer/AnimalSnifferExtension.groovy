@@ -1,6 +1,6 @@
 package ru.vyarus.gradle.plugin.animalsniffer
 
-import groovy.transform.CompileStatic
+import groovy.transform.CompileDynamic
 import org.gradle.api.Project
 import org.gradle.api.file.FileCollection
 import org.gradle.api.plugins.quality.CodeQualityExtension
@@ -12,7 +12,7 @@ import org.gradle.api.plugins.quality.CodeQualityExtension
  * @author Vyacheslav Rusakov
  * @since 13.12.2015
  */
-@CompileStatic
+@CompileDynamic
 class AnimalSnifferExtension extends CodeQualityExtension {
 
     private final Project project
